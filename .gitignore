@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data files (Don't push large datasets)
+1_Data/raw/*
+!1_Data/raw/.gitkeep
+
+# Environments
+venv/
+.env
