@@ -1,6 +1,9 @@
 # Python bytecode
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*.pyd
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -9,7 +12,38 @@ __pycache__/
 # Data files (Don't push large datasets)
 1_Data/raw/*
 !1_Data/raw/.gitkeep
+1_Data/processed/*.npy
+1_Data/1_Data/
 
-# Environments
+# Virtual environments
 venv/
+.venv/
+env/
 .env
+
+# Log files
+*.log
+qsvm_output.log
+vqc_output.log
+
+# Internal documentation (not for GitHub)
+PRESENTATION_GUIDE.md
+CODE_NOTES.md
+README_SUNUM.md
+EXPERIMENT_RESULTS_SUMMARY.md
+PROJECT_COMPLETION_REPORT.md
+BOŞ_KLASÖRLER_ANALİZİ.md
+PROJECT_ENHANCEMENTS.md
+FINAL_SUMMARY.md
+DENEYLER_BASLATILDI*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
